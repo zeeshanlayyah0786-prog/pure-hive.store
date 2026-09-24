@@ -12,13 +12,13 @@ export default function Navigation() {
     { path: "/shop", label: "Shop", icon: ShoppingBag },
     { path: "/tutorials", label: "Tutorials", icon: BookOpen },
     { path: "/videos", label: "Videos", icon: Video },
-    { path: "/sell", label: "Sell on Make Hive", icon: Store },
+    { path: "/sell", label: "Sell on PURE HIVE", icon: Store },
     { path: "/about", label: "About", icon: Info },
     { path: "/contact", label: "Contact", icon: Phone },
   ];
 
   return (
-    <nav className="bg-white border-b border-border sticky top-0 z-50 shadow-sm">
+    <nav className="bg-background/90 backdrop-blur-md border-b border-border sticky top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -33,8 +33,8 @@ export default function Navigation() {
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent leading-none">
-                Make Hive
+              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-amber-600 bg-clip-text text-transparent leading-none">
+                PURE HIVE
               </span>
               <span className="text-[10px] text-muted-foreground italic">Buzz Into Creativity</span>
             </div>

@@ -13,14 +13,14 @@ export default function FAQ() {
 
   const faqCategories = [
     {
-      category: "General",
+      category: "Getting Started",
       questions: [
         {
-          q: "What is Make Hive?",
-          a: "Make Hive is an online marketplace and learning platform dedicated to DIY crafts, handmade items, and creative tutorials. We connect craft enthusiasts with unique products, downloadable patterns, and step-by-step video tutorials."
+          q: "What is PURE HIVE?",
+          a: "PURE HIVE is an online marketplace and learning platform dedicated to DIY crafts, handmade items, and creative tutorials. We connect craft enthusiasts with unique products, downloadable patterns, and step-by-step video tutorials."
         },
         {
-          q: "Is Make Hive free to use?",
+          q: "Is PURE HIVE free to use?",
           a: "Yes! Browsing tutorials, watching videos, and exploring our marketplace is completely free. Some premium patterns and products require purchase, and sellers pay a small commission on sales."
         },
         {
@@ -30,7 +30,7 @@ export default function FAQ() {
       ]
     },
     {
-      category: "Shopping & Orders",
+      category: "Orders & Shipping",
       questions: [
         {
           q: "What payment methods do you accept?",
@@ -51,7 +51,7 @@ export default function FAQ() {
       ]
     },
     {
-      category: "Returns & Refunds",
+      category: "Refunds & Exchanges",
       questions: [
         {
           q: "What is your return policy?",
@@ -68,14 +68,14 @@ export default function FAQ() {
       ]
     },
     {
-      category: "Selling on Make Hive",
+      category: "Seller Questions",
       questions: [
         {
           q: "How do I become a seller?",
-          a: "Visit our 'Sell on Make Hive' page and click 'Create Seller Account'. Complete the application form, and we'll review it within 24-48 hours. Once approved, you can start listing products immediately."
+          a: "Visit our 'Sell on PURE HIVE' page and click 'Create Seller Account'. Complete the application form, and we'll review it within 24-48 hours. Once approved, you can start listing products immediately."
         },
         {
-          q: "What can I sell on Make Hive?",
+          q: "What can I sell on PURE HIVE?",
           a: "You can sell handmade physical items, digital downloads (patterns, templates, printables), craft supplies, and DIY kits. All items must be craft-related and comply with our seller guidelines."
         },
         {
@@ -93,7 +93,7 @@ export default function FAQ() {
       ]
     },
     {
-      category: "Tutorials & Content",
+      category: "Learning & Tutorials",
       questions: [
         {
           q: "Are all tutorials free?",
@@ -149,9 +149,9 @@ export default function FAQ() {
       <section className="bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl font-bold mb-4">The Hive Help Center</h1>
+            <h1 className="text-5xl font-bold mb-4">The PURE HIVE Help Desk</h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Get the buzz on everything Make Hive - answers to all your questions
+              Answers to all your crafting questions, all in one place
             </p>
 
             {/* Search */}
@@ -209,7 +209,7 @@ export default function FAQ() {
       <section className="py-16 bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10">
         <div className="container mx-auto px-4">
           <Card className="max-w-2xl mx-auto p-8 text-center">
-            <h2 className="text-3xl font-bold mb-4">Still Need Help?</h2>
+            <h2 className="text-3xl font-bold mb-4">Can't Find Your Answer?</h2>
             <p className="text-muted-foreground mb-6">
               Can't find what you're looking for? Our support team is here to help!
             </p>

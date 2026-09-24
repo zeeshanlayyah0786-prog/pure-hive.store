@@ -12,7 +12,7 @@ import { Clock, Search, Filter } from "lucide-react";
 const allTutorials = [
   {
     id: "1",
-    title: "DIY Paper Flower Bouquet",
+    title: "Forever Blooms Paper Bouquet",
     image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&q=80",
     time: "45 min",
     difficulty: "Beginner",
@@ -21,7 +21,7 @@ const allTutorials = [
   },
   {
     id: "2",
-    title: "Macramé Wall Hanging",
+    title: "Boho Knots Wall Hanging",
     image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
     time: "2 hours",
     difficulty: "Intermediate",
@@ -30,7 +30,7 @@ const allTutorials = [
   },
   {
     id: "3",
-    title: "Hand-Painted Ceramic Mugs",
+    title: "Doodle-Dot Ceramic Mugs",
     image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80",
     time: "1 hour",
     difficulty: "Beginner",
@@ -39,7 +39,7 @@ const allTutorials = [
   },
   {
     id: "4",
-    title: "Pressed Flower Bookmarks",
+    title: "Pressed Petal Bookmarks",
     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
     time: "20 min",
     difficulty: "Beginner",
@@ -48,7 +48,7 @@ const allTutorials = [
   },
   {
     id: "5",
-    title: "Embroidered Tote Bag",
+    title: "Stitched Bloom Tote",
     image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80",
     time: "3 hours",
     difficulty: "Advanced",
@@ -57,7 +57,7 @@ const allTutorials = [
   },
   {
     id: "6",
-    title: "Watercolor Greeting Cards",
+    title: "Wash & Ink Greeting Cards",
     image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
     time: "40 min",
     difficulty: "Beginner",
@@ -66,7 +66,7 @@ const allTutorials = [
   },
   {
     id: "7",
-    title: "Origami Crane Mobile",
+    title: "Flying Cranes Mobile",
     image: "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&q=80",
     time: "30 min",
     difficulty: "Intermediate",
@@ -75,7 +75,7 @@ const allTutorials = [
   },
   {
     id: "8",
-    title: "Knitted Cozy Scarf",
+    title: "Cloud-Soft Knit Scarf",
     image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
     time: "5 hours",
     difficulty: "Intermediate",
@@ -84,7 +84,7 @@ const allTutorials = [
   },
   {
     id: "9",
-    title: "Resin Jewelry Making",
+    title: "First Pour: Resin Jewelry",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     time: "1.5 hours",
     difficulty: "Advanced",
@@ -93,7 +93,7 @@ const allTutorials = [
   },
   {
     id: "10",
-    title: "Polymer Clay Earrings",
+    title: "Clay Confetti Earrings",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     time: "1 hour",
     difficulty: "Beginner",
@@ -102,7 +102,7 @@ const allTutorials = [
   },
   {
     id: "11",
-    title: "Candle Making Workshop",
+    title: "Glow Hour Candle Workshop",
     image: "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=800&q=80",
     time: "2 hours",
     difficulty: "Beginner",
@@ -111,7 +111,7 @@ const allTutorials = [
   },
   {
     id: "12",
-    title: "Crochet Amigurumi Animals",
+    title: "Amigurumi Animal Magic",
     image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
     time: "4 hours",
     difficulty: "Advanced",
@@ -145,7 +145,7 @@ export default function TutorialLibrary() {
       {/* Header */}
       <section className="bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">The Hive Academy</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">PURE HIVE Academy</h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             Learn from the colony! Browse our complete collection of step-by-step craft tutorials. Filter by difficulty,
             category, or season to find your perfect project.

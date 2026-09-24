@@ -37,19 +37,19 @@ export default function Footer() {
                   <circle cx="14" cy="9.5" r="0.8" fill="#333"/>
                 </svg>
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-orange-500 bg-clip-text text-transparent">
-                Make Hive
+              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-amber-600 bg-clip-text text-transparent">
+                PURE HIVE
               </span>
             </Link>
             <p className="text-muted-foreground text-sm mb-4">
               Buzz into creativity! Your hive for DIY craft tutorials, supplies, and a thriving maker community.
             </p>
             <div className="text-xs text-muted-foreground space-y-1">
-              <p className="font-semibold">Make Hive LLC</p>
-              <p>2445 Lawrence St</p>
-              <p>Denver, CO 80205</p>
-              <p className="mt-2">Phone: +1 864 214 9115</p>
-              <p>Email: sales@makehive.store</p>
+              <p className="font-semibold">PURE HIVE LLC</p>
+              <p>1045 Rosemary St</p>
+              <p>Denver, CO 80230</p>
+              <p className="mt-2">Phone: +1 (830) 266-9958</p>
+              <p>Email: sales@pure-hive.store</p>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/sell" className="text-muted-foreground hover:text-primary transition-colors">
-                  Sell on Make Hive
+                  Sell on PURE HIVE
                 </Link>
               </li>
             </ul>
@@ -136,7 +136,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} Make Hive. All rights reserved.</p>
+          <p>© {currentYear} PURE HIVE. All rights reserved.</p>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <Link to="/privacy" className="hover:text-primary transition-colors">
               Privacy Policy

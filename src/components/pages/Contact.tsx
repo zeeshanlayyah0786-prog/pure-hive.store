@@ -32,19 +32,19 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email Us",
-      description: "sales@makehive.store",
+      description: "sales@pure-hive.store",
       action: "Send Email",
     },
     {
       icon: Phone,
       title: "Call Us",
-      description: "+1 864 214 9115",
+      description: "+1 (830) 266-9958",
       action: "Call Now",
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      description: "2445 Lawrence St Denver, CO 80205",
+      description: "1045 Rosemary St Denver, CO 80230",
       action: "Get Directions",
     },
   ];
@@ -53,7 +53,7 @@ export default function Contact() {
     {
       icon: HelpCircle,
       title: "General Support",
-      description: "Questions about using Make Hive",
+      description: "Questions about using PURE HIVE",
     },
     {
       icon: Store,
@@ -74,7 +74,7 @@ export default function Contact() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">Connect With The Hive</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Say Hello to the Hive</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Have questions? Our team is buzzing to help! Reach out and we'll respond as soon as possible.
           </p>
@@ -105,7 +105,7 @@ export default function Contact() {
           {/* Contact Form */}
           <div className="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Send Us a Message</h2>
+              <h2 className="text-3xl font-bold mb-6">Drop Us a Line</h2>
               <p className="text-muted-foreground mb-8">
                 Fill out the form below and our team will get back to you within 24 hours.
               </p>
@@ -202,15 +202,15 @@ export default function Contact() {
       <section className="py-16 bg-gradient-to-b from-white to-secondary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Frequently Asked Questions</h2>
-            <p className="text-muted-foreground">Quick answers to common questions</p>
+            <h2 className="text-3xl font-bold mb-4">Quick Answers</h2>
+            <p className="text-muted-foreground">The most common questions, answered briefly</p>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
             <Card className="p-6">
-              <h3 className="font-bold text-lg mb-2">How do I start selling on Make Hive?</h3>
+              <h3 className="font-bold text-lg mb-2">How do I start selling on PURE HIVE?</h3>
               <p className="text-muted-foreground">
-                Visit our <a href="/sell" className="text-primary hover:underline">Sell on Make Hive</a> page to learn about our seller program and create your account.
+                Visit our <a href="/sell" className="text-primary hover:underline">Sell on PURE HIVE</a> page to learn about our seller program and create your account.
               </p>
             </Card>
             <Card className="p-6">

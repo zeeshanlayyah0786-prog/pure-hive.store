@@ -13,7 +13,7 @@ import { Clock, Search, Play, Eye, ThumbsUp, Share2, BookmarkPlus } from "lucide
 const videoTutorials = [
   {
     id: "v1",
-    title: "DIY Paper Flower Bouquet - Full Tutorial",
+    title: "Forever Blooms Bouquet — Full Tutorial",
     thumbnail: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&q=80",
     duration: "15:32",
     views: "45K",
@@ -25,7 +25,7 @@ const videoTutorials = [
   },
   {
     id: "v2",
-    title: "Macramé Wall Hanging for Beginners",
+    title: "Boho Knots Wall Hanging for Beginners",
     thumbnail: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
     duration: "22:15",
     views: "38K",
@@ -37,7 +37,7 @@ const videoTutorials = [
   },
   {
     id: "v3",
-    title: "Resin Jewelry Making - Complete Guide",
+    title: "First Pour: Resin Jewelry — Complete Guide",
     thumbnail: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     duration: "18:45",
     views: "52K",
@@ -49,7 +49,7 @@ const videoTutorials = [
   },
   {
     id: "v4",
-    title: "Crochet Amigurumi Animals Step-by-Step",
+    title: "Amigurumi Animal Magic Step-by-Step",
     thumbnail: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
     duration: "28:10",
     views: "61K",
@@ -61,7 +61,7 @@ const videoTutorials = [
   },
   {
     id: "v5",
-    title: "Watercolor Techniques for Beginners",
+    title: "Wash & Ink: Watercolor Techniques",
     thumbnail: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
     duration: "12:30",
     views: "29K",
@@ -73,7 +73,7 @@ const videoTutorials = [
   },
   {
     id: "v6",
-    title: "Kids Craft: Easy Paper Plate Animals",
+    title: "Paper Plate Zoo for Kids",
     thumbnail: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
     duration: "10:15",
     views: "42K",
@@ -85,7 +85,7 @@ const videoTutorials = [
   },
   {
     id: "v7",
-    title: "Seasonal Wreath Making Tutorial",
+    title: "Wreath Studio: Seasonal Tutorial",
     thumbnail: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80",
     duration: "16:20",
     views: "35K",
@@ -97,7 +97,7 @@ const videoTutorials = [
   },
   {
     id: "v8",
-    title: "Embroidery Basics: 10 Essential Stitches",
+    title: "Stitch Starter: 10 Embroidery Stitches",
     thumbnail: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
     duration: "20:45",
     views: "48K",
@@ -131,7 +131,7 @@ export default function Videos() {
       {/* Header */}
       <section className="bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Hive TV</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">PURE HIVE TV</h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             Watch step-by-step video guides from expert crafters. Learn new techniques and craft along at your own pace.
           </p>

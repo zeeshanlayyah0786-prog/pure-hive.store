@@ -119,10 +119,10 @@ export default function Sell() {
             <div>
               <Badge className="mb-4">Seller Program</Badge>
               <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                Make Honey From Your Creativity
+                Turn Your Craft Into Income
               </h1>
               <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                Join the Make Hive marketplace and sell your handmade items, digital patterns, and craft supplies to thousands of eager buyers. No upfront costs, easy setup, and full hive support.
+                Join the PURE HIVE marketplace and sell your handmade items, digital patterns, and craft supplies to thousands of eager buyers. No upfront costs, easy setup, and full hive support.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="text-lg px-8" onClick={() => setIsRegistrationOpen(true)}>
@@ -139,7 +139,7 @@ export default function Sell() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1556740758-90de374c12ad?w=800&q=80"
+                src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80"
                 alt="Seller workspace"
                 className="rounded-2xl shadow-2xl"
               />
@@ -156,7 +156,7 @@ export default function Sell() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Why Join The Hive?</h2>
+            <h2 className="text-4xl font-bold mb-4">Why Sell With Us?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Sweet tools to build a thriving craft business
             </p>
@@ -183,7 +183,7 @@ export default function Sell() {
       <section ref={howItWorksRef} className="py-16 bg-gradient-to-b from-white to-secondary/10">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">How It Works</h2>
+            <h2 className="text-4xl font-bold mb-4">Three Steps to Your First Sale</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Get started in three simple steps
             </p>
@@ -224,7 +224,7 @@ export default function Sell() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">What Can You Sell?</h2>
+            <h2 className="text-4xl font-bold mb-4">What's Welcome Here</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We welcome a wide variety of craft-related products
             </p>
@@ -250,7 +250,7 @@ export default function Sell() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6">Powerful Seller Dashboard</h2>
+              <h2 className="text-4xl font-bold mb-6">Your Seller Command Center</h2>
               <p className="text-lg text-muted-foreground mb-6">
                 Manage your entire shop from one intuitive dashboard. Track orders, upload products, view analytics, and communicate with customers.
               </p>
@@ -321,7 +321,7 @@ export default function Sell() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+            <h2 className="text-4xl font-bold mb-4">Seller FAQs</h2>
           </div>
 
           <div className="max-w-3xl mx-auto space-y-4">
@@ -332,7 +332,7 @@ export default function Sell() {
               </p>
             </Card>
             <Card className="p-6">
-              <h3 className="font-bold text-lg mb-2">What can I sell on Make Hive?</h3>
+              <h3 className="font-bold text-lg mb-2">What can I sell on PURE HIVE?</h3>
               <p className="text-muted-foreground">
                 You can sell handmade crafts, digital patterns, templates, printables, craft supplies, and DIY kits. All items must be craft-related and meet our quality guidelines.
               </p>
@@ -357,9 +357,9 @@ export default function Sell() {
       <section className="py-16 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10">
         <div className="container mx-auto px-4">
           <Card className="p-12 text-center bg-white shadow-xl max-w-3xl mx-auto">
-            <h2 className="text-3xl font-bold mb-4">Ready to Start Your Craft Business?</h2>
+            <h2 className="text-3xl font-bold mb-4">Ready to Open Your Shop?</h2>
             <p className="text-muted-foreground mb-8 text-lg">
-              Join thousands of successful sellers on Make Hive and turn your creativity into income.
+              Join thousands of successful sellers on PURE HIVE and turn your creativity into income.
             </p>
             <Button size="lg" className="text-lg px-12" onClick={() => setIsRegistrationOpen(true)}>
               <Store className="w-5 h-5 mr-2" />
@@ -378,7 +378,7 @@ export default function Sell() {
           <DialogHeader>
             <DialogTitle className="text-2xl">Create Your Seller Account</DialogTitle>
             <DialogDescription>
-              Fill out the form below to start selling on Make Hive
+              Fill out the form below to start selling on PURE HIVE
             </DialogDescription>
           </DialogHeader>
 
