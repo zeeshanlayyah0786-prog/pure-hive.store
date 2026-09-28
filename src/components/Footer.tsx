@@ -14,7 +14,7 @@ export default function Footer() {
     e.preventDefault();
     if (email) {
       toast({
-        title: "You're in the Hive! 🐝",
+        title: "You're part of the Bloom! 🌸",
         description: "You'll receive weekly craft inspiration and exclusive patterns.",
       });
       setEmail("");
@@ -28,7 +28,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center shadow-md">
+              <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-rose-400 rounded-xl flex items-center justify-center shadow-md">
                 <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
                   <path d="M12 3L18 8V14L12 19L6 14V8L12 3Z" fill="#FFF5CC" stroke="white" strokeWidth="1"/>
                   <ellipse cx="12" cy="11" rx="3" ry="4" fill="#FFD700"/>
@@ -37,19 +37,19 @@ export default function Footer() {
                   <circle cx="14" cy="9.5" r="0.8" fill="#333"/>
                 </svg>
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-amber-600 bg-clip-text text-transparent">
-                PURE HIVE
+              <span className="text-2xl font-bold bg-gradient-to-r from-green-500 to-rose-500 bg-clip-text text-transparent">
+                BRIGHT BLOOM
               </span>
             </Link>
             <p className="text-muted-foreground text-sm mb-4">
-              Buzz into creativity! Your hive for DIY craft tutorials, supplies, and a thriving maker community.
+              Bloom into creativity! Your garden for DIY craft tutorials, supplies, and a thriving maker community.
             </p>
             <div className="text-xs text-muted-foreground space-y-1">
-              <p className="font-semibold">PURE HIVE LLC</p>
-              <p>1045 Rosemary St</p>
-              <p>Denver, CO 80230</p>
-              <p className="mt-2">Phone: +1 (830) 266-9958</p>
-              <p>Email: sales@pure-hive.store</p>
+              <p className="font-semibold">BRIGHT BLOOM LLC</p>
+              <p>1410 N Humboldt St</p>
+              <p>Denver, CO 80218</p>
+              <p className="mt-2">Phone: +1 231 999-1542</p>
+              <p>Email: sales@bright-bloom.store</p>
             </div>
           </div>
 
@@ -79,7 +79,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link to="/sell" className="text-muted-foreground hover:text-primary transition-colors">
-                  Sell on PURE HIVE
+                  Sell on BRIGHT BLOOM
                 </Link>
               </li>
             </ul>
@@ -116,7 +116,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-4">Stay Connected</h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Get the buzz on weekly craft inspiration and exclusive patterns.
+              Fresh craft inspiration and exclusive patterns, every week.
             </p>
             <form onSubmit={handleSubscribe} className="flex flex-col gap-2">
               <Input
@@ -136,7 +136,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted-foreground">
-          <p>© {currentYear} PURE HIVE. All rights reserved.</p>
+          <p>© {currentYear} BRIGHT BLOOM. All rights reserved.</p>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6">
             <Link to="/privacy" className="hover:text-primary transition-colors">
               Privacy Policy

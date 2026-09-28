@@ -24,7 +24,7 @@ interface Product {
 const products: Product[] = [
   {
     id: "p1",
-    title: "Floral Embroidery Library",
+    title: "Bloom Stitch Pattern Treasury",
     image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
     price: 12.99,
     category: "Embroidery",
@@ -34,7 +34,7 @@ const products: Product[] = [
   },
   {
     id: "p2",
-    title: "Blooming Paper Flowers Vol. 1",
+    title: "Petal & Paper Flower Workshop",
     image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&q=80",
     price: 9.99,
     category: "Paper Crafts",
@@ -44,7 +44,7 @@ const products: Product[] = [
   },
   {
     id: "p3",
-    title: "Knot by Knot: Macramé Guide",
+    title: "Knot Garden Macramé Guide",
     image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
     price: 14.99,
     category: "Fiber Arts",
@@ -54,7 +54,7 @@ const products: Product[] = [
   },
   {
     id: "p4",
-    title: "Watercolor Foundations Workbook",
+    title: "Garden Hues Watercolor Workbook",
     image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
     price: 11.99,
     category: "Painting",
@@ -64,7 +64,7 @@ const products: Product[] = [
   },
   {
     id: "p5",
-    title: "Amigurumi Menagerie Pattern Book",
+    title: "Cuddle Creatures Crochet Book",
     image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
     price: 15.99,
     category: "Crochet",
@@ -74,7 +74,7 @@ const products: Product[] = [
   },
   {
     id: "p6",
-    title: "Poured: Resin Mold Designs",
+    title: "Resin Bloom Mold Designs",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     price: 19.99,
     category: "Jewelry",
@@ -84,7 +84,7 @@ const products: Product[] = [
   },
   {
     id: "p7",
-    title: "Year of Crafting Planner",
+    title: "Season by Season Craft Journal",
     image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80",
     price: 8.99,
     category: "Seasonal",
@@ -94,7 +94,7 @@ const products: Product[] = [
   },
   {
     id: "p8",
-    title: "Little Makers Activity Treasury",
+    title: "Sunny Days Kids' Craft Book",
     image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&q=80",
     price: 10.99,
     category: "Kids Crafts",
@@ -137,7 +137,7 @@ export default function Marketplace() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-4xl md:text-5xl font-bold mb-4">The PURE HIVE Marketplace</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-4">Marketplace of Makers</h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
                 Download premium patterns, templates, and guides to sweeten your crafting projects
               </p>

@@ -24,13 +24,13 @@ export default function TermsOfService() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold mb-6">1. Agreement to Terms</h2>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                By accessing and using PURE HIVE ("the Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Service.
+                By accessing and using BRIGHT BLOOM ("the Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Service.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">2. Use of Service</h2>
               <h3 className="text-xl font-semibold mb-4">2.1 Eligibility</h3>
               <p className="mb-4 text-muted-foreground leading-relaxed">
-                You must be at least 18 years old to use PURE HIVE. By using the Service, you represent and warrant that you meet this age requirement.
+                You must be at least 18 years old to use BRIGHT BLOOM. By using the Service, you represent and warrant that you meet this age requirement.
               </p>
 
               <h3 className="text-xl font-semibold mb-4">2.2 Account Registration</h3>
@@ -90,50 +90,50 @@ export default function TermsOfService() {
 
               <h3 className="text-xl font-semibold mb-4">4.3 Refunds</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                Refund eligibility is determined by our Refund Policy and individual seller policies. PURE HIVE reserves the right to issue refunds at our discretion in cases of fraud or significant policy violations.
+                Refund eligibility is determined by our Refund Policy and individual seller policies. BRIGHT BLOOM reserves the right to issue refunds at our discretion in cases of fraud or significant policy violations.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">5. Intellectual Property</h2>
-              <h3 className="text-xl font-semibold mb-4">5.1 PURE HIVE Content</h3>
+              <h3 className="text-xl font-semibold mb-4">5.1 BRIGHT BLOOM Content</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                All content on PURE HIVE, including logos, designs, text, graphics, and software, is owned by PURE HIVE or licensed to us. You may not copy, reproduce, or distribute this content without written permission.
+                All content on BRIGHT BLOOM, including logos, designs, text, graphics, and software, is owned by BRIGHT BLOOM or licensed to us. You may not copy, reproduce, or distribute this content without written permission.
               </p>
 
               <h3 className="text-xl font-semibold mb-4">5.2 User Content</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                You retain ownership of content you create and upload (tutorials, product listings, reviews). By uploading content, you grant PURE HIVE a non-exclusive, worldwide license to use, display, and distribute your content on our platform. You represent that you have all necessary rights to grant this license.
+                You retain ownership of content you create and upload (tutorials, product listings, reviews). By uploading content, you grant BRIGHT BLOOM a non-exclusive, worldwide license to use, display, and distribute your content on our platform. You represent that you have all necessary rights to grant this license.
               </p>
 
               <h3 className="text-xl font-semibold mb-4">5.3 Copyright Infringement</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                We respect intellectual property rights. If you believe content on PURE HIVE infringes your copyright, please contact us with detailed information. Repeated copyright violations will result in account termination.
+                We respect intellectual property rights. If you believe content on BRIGHT BLOOM infringes your copyright, please contact us with detailed information. Repeated copyright violations will result in account termination.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">6. Privacy and Data</h2>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your personal information. By using PURE HIVE, you consent to our data practices as described in the Privacy Policy.
+                Your privacy is important to us. Our Privacy Policy explains how we collect, use, and protect your personal information. By using BRIGHT BLOOM, you consent to our data practices as described in the Privacy Policy.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">7. Disclaimers and Limitation of Liability</h2>
               <h3 className="text-xl font-semibold mb-4">7.1 Service Provided "As Is"</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                PURE HIVE is provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free service. We are not responsible for content accuracy, quality of products, or interactions between buyers and sellers.
+                BRIGHT BLOOM is provided "as is" without warranties of any kind. We do not guarantee uninterrupted or error-free service. We are not responsible for content accuracy, quality of products, or interactions between buyers and sellers.
               </p>
 
               <h3 className="text-xl font-semibold mb-4">7.2 Limitation of Liability</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                To the maximum extent permitted by law, PURE HIVE shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service. Our total liability shall not exceed the amount you paid to PURE HIVE in the past 12 months.
+                To the maximum extent permitted by law, BRIGHT BLOOM shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of the Service. Our total liability shall not exceed the amount you paid to BRIGHT BLOOM in the past 12 months.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">8. Dispute Resolution</h2>
               <h3 className="text-xl font-semibold mb-4">8.1 Buyer-Seller Disputes</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                Users should first attempt to resolve disputes directly. If resolution cannot be reached, either party may contact PURE HIVE support for mediation. Our decision in disputes is final.
+                Users should first attempt to resolve disputes directly. If resolution cannot be reached, either party may contact BRIGHT BLOOM support for mediation. Our decision in disputes is final.
               </p>
 
               <h3 className="text-xl font-semibold mb-4">8.2 Arbitration</h3>
               <p className="mb-6 text-muted-foreground leading-relaxed">
-                Any disputes between you and PURE HIVE shall be resolved through binding arbitration rather than in court, except where prohibited by law. You waive your right to participate in class action lawsuits.
+                Any disputes between you and BRIGHT BLOOM shall be resolved through binding arbitration rather than in court, except where prohibited by law. You waive your right to participate in class action lawsuits.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">9. Termination</h2>
@@ -155,25 +155,25 @@ export default function TermsOfService() {
 
               <h2 className="text-3xl font-bold mb-6 mt-10">11. General Provisions</h2>
               <ul className="list-disc pl-6 mb-6 text-muted-foreground space-y-2">
-                <li><strong>Governing Law:</strong> These Terms are governed by the laws of the United States and the state in which PURE HIVE is registered</li>
+                <li><strong>Governing Law:</strong> These Terms are governed by the laws of the United States and the state in which BRIGHT BLOOM is registered</li>
                 <li><strong>Severability:</strong> If any provision is found unenforceable, the remaining provisions remain in effect</li>
-                <li><strong>Entire Agreement:</strong> These Terms constitute the entire agreement between you and PURE HIVE</li>
+                <li><strong>Entire Agreement:</strong> These Terms constitute the entire agreement between you and BRIGHT BLOOM</li>
                 <li><strong>No Waiver:</strong> Our failure to enforce any right does not waive that right</li>
               </ul>
 
               <h2 className="text-3xl font-bold mb-6 mt-10">12. Contact Information</h2>
               <p className="mb-2 text-muted-foreground">For questions about these Terms, contact us:</p>
               <ul className="list-none mb-6 text-muted-foreground space-y-2">
-                <li>Email: sales@pure-hive.store</li>
-                <li>Phone: +1 (830) 266-9958</li>
-                <li>Address: 1045 Rosemary St Denver, CO 80230</li>
-                <li>Website: www.pure-hive.store</li>
+                <li>Email: sales@bright-bloom.store</li>
+                <li>Phone: +1 231 999-1542</li>
+                <li>Address: 1410 N Humboldt St Denver, CO 80218</li>
+                <li>Website: www.bright-bloom.store</li>
                 <li>Through our Contact page</li>
               </ul>
 
               <div className="mt-10 p-6 bg-primary/10 rounded-lg">
                 <p className="text-sm text-muted-foreground">
-                  <strong>Note:</strong> By using PURE HIVE, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
+                  <strong>Note:</strong> By using BRIGHT BLOOM, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service.
                 </p>
               </div>
             </div>

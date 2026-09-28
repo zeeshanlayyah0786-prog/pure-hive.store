@@ -12,7 +12,7 @@ export default function Navigation() {
     { path: "/shop", label: "Shop", icon: ShoppingBag },
     { path: "/tutorials", label: "Tutorials", icon: BookOpen },
     { path: "/videos", label: "Videos", icon: Video },
-    { path: "/sell", label: "Sell on PURE HIVE", icon: Store },
+    { path: "/sell", label: "Sell on BRIGHT BLOOM", icon: Store },
     { path: "/about", label: "About", icon: Info },
     { path: "/contact", label: "Contact", icon: Phone },
   ];
@@ -23,7 +23,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-orange-500 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform shadow-md">
+            <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-rose-400 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform shadow-md">
               <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none">
                 <path d="M12 3L18 8V14L12 19L6 14V8L12 3Z" fill="#FFF5CC" stroke="white" strokeWidth="1"/>
                 <ellipse cx="12" cy="11" rx="3" ry="4" fill="#FFD700"/>
@@ -33,8 +33,8 @@ export default function Navigation() {
               </svg>
             </div>
             <div className="flex flex-col">
-              <span className="text-2xl font-bold bg-gradient-to-r from-yellow-500 to-amber-600 bg-clip-text text-transparent leading-none">
-                PURE HIVE
+              <span className="text-2xl font-bold bg-gradient-to-r from-green-500 to-rose-500 bg-clip-text text-transparent leading-none">
+                BRIGHT BLOOM
               </span>
               <span className="text-[10px] text-muted-foreground italic">Buzz Into Creativity</span>
             </div>

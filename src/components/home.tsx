@@ -13,7 +13,7 @@ import { useToast } from "@/components/ui/use-toast";
 const featuredTutorials = [
   {
     id: 1,
-    title: "Stitched Bloom Tote",
+    title: "Bloom & Thread Tote",
     image: "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80",
     time: "3 hours",
     difficulty: "Advanced",
@@ -21,7 +21,7 @@ const featuredTutorials = [
   },
   {
     id: 2,
-    title: "Boho Knots Wall Hanging",
+    title: "Knot Garden Wall Hanging",
     image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=800&q=80",
     time: "2 hours",
     difficulty: "Intermediate",
@@ -29,7 +29,7 @@ const featuredTutorials = [
   },
   {
     id: 3,
-    title: "Doodle-Dot Ceramic Mugs",
+    title: "Garden Dot Ceramic Mugs",
     image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80",
     time: "1 hour",
     difficulty: "Beginner",
@@ -37,7 +37,7 @@ const featuredTutorials = [
   },
   {
     id: 4,
-    title: "Pressed Petal Bookmarks",
+    title: "Petal Keep Bookmarks",
     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&q=80",
     time: "20 min",
     difficulty: "Beginner",
@@ -45,7 +45,7 @@ const featuredTutorials = [
   },
   {
     id: 5,
-    title: "Forever Blooms Paper Bouquet",
+    title: "Bloom Forever Paper Bouquet",
     image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&q=80",
     time: "45 min",
     difficulty: "Beginner",
@@ -53,7 +53,7 @@ const featuredTutorials = [
   },
   {
     id: 6,
-    title: "Wash & Ink Greeting Cards",
+    title: "Petal Press Greeting Cards",
     image: "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=800&q=80",
     time: "40 min",
     difficulty: "Beginner",
@@ -64,25 +64,25 @@ const featuredTutorials = [
 const trendingCrafts = [
   {
     id: "t1",
-    title: "First Pour: Resin Jewelry",
+    title: "Resin Blossoms Jewelry",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80",
     views: "12.5K",
   },
   {
     id: "t2",
-    title: "Amigurumi Animal Magic",
+    title: "Crochet Creature Magic",
     image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=600&q=80",
     views: "10.2K",
   },
   {
     id: "t3",
-    title: "Clay Confetti Earrings",
+    title: "Confetti Bloom Earrings",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=600&q=80",
     views: "9.8K",
   },
   {
     id: "t4",
-    title: "Glow Hour Candle Workshop",
+    title: "Golden Hour Candle Workshop",
     image: "https://images.unsplash.com/photo-1603006905003-be475563bc59?w=800&q=80",
     views: "8.5K",
   },
@@ -91,21 +91,21 @@ const trendingCrafts = [
 const seasonalHighlights = [
   {
     id: "s1",
-    title: "Spring Garden Whimsy",
+    title: "Spring Bloom Whimsy",
     image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&q=80",
     season: "Spring",
     projects: 15,
   },
   {
     id: "s2",
-    title: "Festive Gift Wrapping Studio",
+    title: "Bright Wrap Gift Studio",
     image: "https://images.unsplash.com/photo-1512909006721-3d6018887383?w=800&q=80",
     season: "Winter",
     projects: 12,
   },
   {
     id: "s3",
-    title: "Sun-Kissed Beach Crafts",
+    title: "Sun & Sand Beach Crafts",
     image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
     season: "Summer",
     projects: 18,
@@ -115,7 +115,7 @@ const seasonalHighlights = [
 const featuredProducts = [
   {
     id: "p1",
-    title: "Floral Embroidery Library",
+    title: "Bloom Stitch Pattern Treasury",
     image: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800&q=80",
     price: 12.99,
     category: "Digital Templates",
@@ -123,7 +123,7 @@ const featuredProducts = [
   },
   {
     id: "p2",
-    title: "Blooming Paper Flowers Vol. 1",
+    title: "Petal & Paper Flower Workshop",
     image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&q=80",
     price: 9.99,
     category: "Paper Crafts",
@@ -131,7 +131,7 @@ const featuredProducts = [
   },
   {
     id: "p3",
-    title: "First Pour: Resin Jewelry Kit",
+    title: "Resin Blossoms Starter Kit",
     image: "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
     price: 34.99,
     category: "Resin Art",
@@ -139,7 +139,7 @@ const featuredProducts = [
   },
   {
     id: "p4",
-    title: "Amigurumi Menagerie Pattern Book",
+    title: "Cuddle Creatures Crochet Book",
     image: "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&q=80",
     price: 15.99,
     category: "Sewing & Crochet",
@@ -155,7 +155,7 @@ export default function Homepage() {
     e.preventDefault();
     if (email) {
       toast({
-        title: "Welcome to The Hive! 🐝",
+        title: "Welcome to the Bloom! 🌸",
         description: "You've successfully subscribed to our newsletter.",
       });
       setEmail("");
@@ -173,24 +173,24 @@ export default function Homepage() {
           <div className="absolute bottom-10 right-10 w-40 h-40 bg-secondary rounded-full blur-3xl" />
           <div className="absolute top-1/2 left-1/2 w-36 h-36 bg-accent rounded-full blur-3xl" />
         </div>
-        <div className="absolute inset-0 honeycomb-pattern" />
+        <div className="absolute inset-0 bloom-pattern" />
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm mb-6">
               <Sparkles className="w-4 h-4 text-primary" />
-              <span className="text-sm font-medium">Made by Makers, For Makers</span>
+              <span className="text-sm font-medium">Grow, Craft, Bloom Together</span>
             </div>
             
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Your Creative
-              <span className="bg-gradient-to-r from-primary via-amber-500 to-accent bg-clip-text text-transparent">
-                {" "}Maker Community
+              The Garden Where
+              <span className="bg-gradient-to-r from-primary via-rose-500 to-accent bg-clip-text text-transparent">
+                {" "}Makers Bloom
               </span>
             </h1>
             
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              Join the buzz — shop craft supplies, sell your creations, learn from expert tutorials, and connect with a thriving community of makers.
+              Join the bloom — shop craft supplies, sell your creations, learn from expert tutorials, and connect with a thriving community of makers.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -213,22 +213,22 @@ export default function Homepage() {
               <div className="flex -space-x-8">
                 <div className="w-36 h-48 md:w-48 md:h-60 rounded-2xl overflow-hidden border-4 border-white shadow-xl -rotate-6 translate-y-3 hover:rotate-0 hover:translate-y-0 transition-all duration-300">
                   <img
-                    src="https://images.unsplash.com/photo-1506806732259-39c2d0268443?w=600&q=80"
-                    alt="Colorful yarn for knitting and crochet projects"
+                    src="https://images.unsplash.com/photo-1526047932273-341f2a7631f9?w=600&q=80"
+                    alt="Pressed flower craft for botanical art projects"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="w-40 h-56 md:w-52 md:h-72 rounded-2xl overflow-hidden border-4 border-white shadow-2xl z-10">
                   <img
-                    src="https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600&q=80"
-                    alt="Vibrant resin pigments for jewelry making"
+                    src="https://images.unsplash.com/photo-1487070183336-b863922373d4?w=600&q=80"
+                    alt="Bright cherry blossoms in full bloom"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="w-36 h-48 md:w-48 md:h-60 rounded-2xl overflow-hidden border-4 border-white shadow-xl rotate-6 translate-y-3 hover:rotate-0 hover:translate-y-0 transition-all duration-300">
                   <img
-                    src="https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600&q=80"
-                    alt="Acrylic paints and brushes for DIY projects"
+                    src="https://images.unsplash.com/photo-1461344577544-4e5dc9487184?w=600&q=80"
+                    alt="Watercolor paints for creative art projects"
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -243,7 +243,7 @@ export default function Homepage() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold mb-2">Honey Pot Picks</h2>
+              <h2 className="text-3xl font-bold mb-2">Bloom Picks</h2>
               <p className="text-muted-foreground">Best-loved craft supplies and digital downloads</p>
             </div>
             <Link to="/shop">
@@ -287,7 +287,7 @@ export default function Homepage() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
             <div>
-              <h2 className="text-3xl font-bold mb-2">Fresh Project Ideas</h2>
+              <h2 className="text-3xl font-bold mb-2">Fresh From the Garden</h2>
               <p className="text-muted-foreground">New makes to spark your creativity</p>
             </div>
             <Link to="/tutorials">
@@ -332,7 +332,7 @@ export default function Homepage() {
           <div className="flex items-center gap-3 mb-8">
             <TrendingUp className="w-8 h-8 text-primary" />
             <div>
-              <h2 className="text-3xl font-bold">Trending This Week</h2>
+              <h2 className="text-3xl font-bold">Blooming This Week</h2>
               <p className="text-muted-foreground">The projects makers can't stop talking about</p>
             </div>
           </div>
@@ -371,7 +371,7 @@ export default function Homepage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-2">Crafting Through the Seasons</h2>
+            <h2 className="text-3xl font-bold mb-2">Four Seasons of Making</h2>
             <p className="text-muted-foreground">Timely projects for every season and celebration</p>
           </div>
 
@@ -408,9 +408,9 @@ export default function Homepage() {
                 <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mb-6">
                   <Store className="w-8 h-8 text-white" />
                 </div>
-                <h2 className="text-3xl font-bold mb-4">Turn Your Passion Into Profit</h2>
+                <h2 className="text-3xl font-bold mb-4">Grow Your Craft Business</h2>
                 <p className="text-muted-foreground mb-6 text-lg">
-                  Join thousands of makers selling handmade items, digital patterns, and craft supplies on PURE HIVE. Set up your shop in minutes and reach a thriving community of crafters.
+                  Join thousands of makers selling handmade items, digital patterns, and craft supplies on BRIGHT BLOOM. Set up your shop in minutes and reach a thriving community of crafters.
                 </p>
                 <ul className="space-y-3 mb-6">
                   <li className="flex items-center gap-2">
@@ -440,8 +440,8 @@ export default function Homepage() {
               </div>
               <div className="relative">
                 <img
-                  src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80"
-                  alt="Craft supplies and tools for makers"
+                  src="https://images.unsplash.com/photo-1469259943454-aa100abba749?w=800&q=80"
+                  alt="Dried flower crafting supplies for makers"
                   className="rounded-xl shadow-2xl"
                 />
               </div>
@@ -457,7 +457,7 @@ export default function Homepage() {
             <div className="w-16 h-16 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-6">
               <Mail className="w-8 h-8 text-white" />
             </div>
-            <h2 className="text-3xl font-bold mb-4">Get the Hive Newsletter</h2>
+            <h2 className="text-3xl font-bold mb-4">Get the Bloom Newsletter</h2>
             <p className="text-muted-foreground mb-6">
               Get weekly tutorials, exclusive patterns, and crafting tips delivered to your inbox
             </p>
